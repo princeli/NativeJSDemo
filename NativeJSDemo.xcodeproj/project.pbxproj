@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08E91D281C1A5B15003C7976 /* NJGroupItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E91D271C1A5B15003C7976 /* NJGroupItem.m */; };
+		08E91D2B1C1A5B72003C7976 /* NJSettingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E91D2A1C1A5B72003C7976 /* NJSettingItem.m */; };
 		08F4EE6C1C195E5C0029DB7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F4EE6B1C195E5C0029DB7E /* main.m */; };
 		08F4EE6F1C195E5C0029DB7E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F4EE6E1C195E5C0029DB7E /* AppDelegate.m */; };
 		08F4EE721C195E5C0029DB7E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F4EE711C195E5C0029DB7E /* ViewController.m */; };
 		08F4EE751C195E5C0029DB7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08F4EE731C195E5C0029DB7E /* Main.storyboard */; };
 		08F4EE771C195E5C0029DB7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08F4EE761C195E5C0029DB7E /* Assets.xcassets */; };
 		08F4EE7A1C195E5C0029DB7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08F4EE781C195E5C0029DB7E /* LaunchScreen.storyboard */; };
+		08F4EEAC1C196DA60029DB7E /* NJTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F4EEAB1C196DA60029DB7E /* NJTabBarController.m */; };
+		08F4EEAF1C196E210029DB7E /* NJOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F4EEAE1C196E210029DB7E /* NJOneViewController.m */; };
+		08F4EEB21C196E420029DB7E /* NJTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F4EEB11C196E420029DB7E /* NJTwoViewController.m */; };
+		08F4EEB51C196E730029DB7E /* NJThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F4EEB41C196E730029DB7E /* NJThreeViewController.m */; };
+		08F4EEB81C196EB40029DB7E /* NJFourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F4EEB71C196EB40029DB7E /* NJFourViewController.m */; };
+		82ACBAE5580E391DAE63C16C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D49D6983BA5B60689CAC28 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08E91D261C1A5B15003C7976 /* NJGroupItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJGroupItem.h; sourceTree = "<group>"; };
+		08E91D271C1A5B15003C7976 /* NJGroupItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJGroupItem.m; sourceTree = "<group>"; };
+		08E91D291C1A5B72003C7976 /* NJSettingItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJSettingItem.h; sourceTree = "<group>"; };
+		08E91D2A1C1A5B72003C7976 /* NJSettingItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJSettingItem.m; sourceTree = "<group>"; };
 		08F4EE671C195E5C0029DB7E /* NativeJSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NativeJSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08F4EE6B1C195E5C0029DB7E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		08F4EE6D1C195E5C0029DB7E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +38,19 @@
 		08F4EE761C195E5C0029DB7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08F4EE791C195E5C0029DB7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08F4EE7B1C195E5C0029DB7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08F4EEAA1C196DA60029DB7E /* NJTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJTabBarController.h; sourceTree = "<group>"; };
+		08F4EEAB1C196DA60029DB7E /* NJTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJTabBarController.m; sourceTree = "<group>"; };
+		08F4EEAD1C196E210029DB7E /* NJOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJOneViewController.h; sourceTree = "<group>"; };
+		08F4EEAE1C196E210029DB7E /* NJOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJOneViewController.m; sourceTree = "<group>"; };
+		08F4EEB01C196E420029DB7E /* NJTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJTwoViewController.h; sourceTree = "<group>"; };
+		08F4EEB11C196E420029DB7E /* NJTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJTwoViewController.m; sourceTree = "<group>"; };
+		08F4EEB31C196E730029DB7E /* NJThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJThreeViewController.h; sourceTree = "<group>"; };
+		08F4EEB41C196E730029DB7E /* NJThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJThreeViewController.m; sourceTree = "<group>"; };
+		08F4EEB61C196EB40029DB7E /* NJFourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJFourViewController.h; sourceTree = "<group>"; };
+		08F4EEB71C196EB40029DB7E /* NJFourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJFourViewController.m; sourceTree = "<group>"; };
+		50D49D6983BA5B60689CAC28 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB13C39B692BE8565D539BF4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		D4DB71B1028893FB6113230F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82ACBAE5580E391DAE63C16C /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +70,8 @@
 			children = (
 				08F4EE691C195E5C0029DB7E /* NativeJSDemo */,
 				08F4EE681C195E5C0029DB7E /* Products */,
+				ACBAB562AEA7ACD82A63107E /* Pods */,
+				1A911A1BF3C2B4287908998C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +86,7 @@
 		08F4EE691C195E5C0029DB7E /* NativeJSDemo */ = {
 			isa = PBXGroup;
 			children = (
+				08F4EE901C196CD70029DB7E /* Classes */,
 				08F4EE6D1C195E5C0029DB7E /* AppDelegate.h */,
 				08F4EE6E1C195E5C0029DB7E /* AppDelegate.m */,
 				08F4EE701C195E5C0029DB7E /* ViewController.h */,
@@ -79,6 +108,244 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		08F4EE901C196CD70029DB7E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				08F4EE911C196CD70029DB7E /* 1 */,
+				08F4EE951C196CD70029DB7E /* 2 */,
+				08F4EE991C196CD70029DB7E /* 3 */,
+				08F4EE9D1C196CD70029DB7E /* 4 */,
+				08F4EEA11C196CD70029DB7E /* 5 */,
+				08F4EEA51C196CD70029DB7E /* Main */,
+				08F4EEA91C196CD70029DB7E /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		08F4EE911C196CD70029DB7E /* 1 */ = {
+			isa = PBXGroup;
+			children = (
+				08F4EE921C196CD70029DB7E /* Controller */,
+				08F4EE931C196CD70029DB7E /* Model */,
+				08F4EE941C196CD70029DB7E /* View */,
+			);
+			path = 1;
+			sourceTree = "<group>";
+		};
+		08F4EE921C196CD70029DB7E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				08F4EEAD1C196E210029DB7E /* NJOneViewController.h */,
+				08F4EEAE1C196E210029DB7E /* NJOneViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		08F4EE931C196CD70029DB7E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		08F4EE941C196CD70029DB7E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		08F4EE951C196CD70029DB7E /* 2 */ = {
+			isa = PBXGroup;
+			children = (
+				08F4EE961C196CD70029DB7E /* Controller */,
+				08F4EE971C196CD70029DB7E /* Model */,
+				08F4EE981C196CD70029DB7E /* View */,
+			);
+			path = 2;
+			sourceTree = "<group>";
+		};
+		08F4EE961C196CD70029DB7E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				08F4EEB01C196E420029DB7E /* NJTwoViewController.h */,
+				08F4EEB11C196E420029DB7E /* NJTwoViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		08F4EE971C196CD70029DB7E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		08F4EE981C196CD70029DB7E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		08F4EE991C196CD70029DB7E /* 3 */ = {
+			isa = PBXGroup;
+			children = (
+				08F4EE9A1C196CD70029DB7E /* Controller */,
+				08F4EE9B1C196CD70029DB7E /* Model */,
+				08F4EE9C1C196CD70029DB7E /* View */,
+			);
+			path = 3;
+			sourceTree = "<group>";
+		};
+		08F4EE9A1C196CD70029DB7E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				08F4EEB31C196E730029DB7E /* NJThreeViewController.h */,
+				08F4EEB41C196E730029DB7E /* NJThreeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		08F4EE9B1C196CD70029DB7E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		08F4EE9C1C196CD70029DB7E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		08F4EE9D1C196CD70029DB7E /* 4 */ = {
+			isa = PBXGroup;
+			children = (
+				08F4EE9E1C196CD70029DB7E /* Controller */,
+				08F4EE9F1C196CD70029DB7E /* Model */,
+				08F4EEA01C196CD70029DB7E /* View */,
+			);
+			path = 4;
+			sourceTree = "<group>";
+		};
+		08F4EE9E1C196CD70029DB7E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				08F4EEB61C196EB40029DB7E /* NJFourViewController.h */,
+				08F4EEB71C196EB40029DB7E /* NJFourViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		08F4EE9F1C196CD70029DB7E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				08E91D261C1A5B15003C7976 /* NJGroupItem.h */,
+				08E91D271C1A5B15003C7976 /* NJGroupItem.m */,
+				08E91D291C1A5B72003C7976 /* NJSettingItem.h */,
+				08E91D2A1C1A5B72003C7976 /* NJSettingItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		08F4EEA01C196CD70029DB7E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		08F4EEA11C196CD70029DB7E /* 5 */ = {
+			isa = PBXGroup;
+			children = (
+				08F4EEA21C196CD70029DB7E /* Controller */,
+				08F4EEA31C196CD70029DB7E /* Model */,
+				08F4EEA41C196CD70029DB7E /* View */,
+			);
+			path = 5;
+			sourceTree = "<group>";
+		};
+		08F4EEA21C196CD70029DB7E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		08F4EEA31C196CD70029DB7E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		08F4EEA41C196CD70029DB7E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		08F4EEA51C196CD70029DB7E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				08F4EEA61C196CD70029DB7E /* Controller */,
+				08F4EEA71C196CD70029DB7E /* Model */,
+				08F4EEA81C196CD70029DB7E /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		08F4EEA61C196CD70029DB7E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				08F4EEAA1C196DA60029DB7E /* NJTabBarController.h */,
+				08F4EEAB1C196DA60029DB7E /* NJTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		08F4EEA71C196CD70029DB7E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		08F4EEA81C196CD70029DB7E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		08F4EEA91C196CD70029DB7E /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		1A911A1BF3C2B4287908998C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50D49D6983BA5B60689CAC28 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACBAB562AEA7ACD82A63107E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB13C39B692BE8565D539BF4 /* Pods.debug.xcconfig */,
+				D4DB71B1028893FB6113230F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +353,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 08F4EE7E1C195E5C0029DB7E /* Build configuration list for PBXNativeTarget "NativeJSDemo" */;
 			buildPhases = (
+				8A8635A909FAF44897781718 /* Check Pods Manifest.lock */,
 				08F4EE631C195E5C0029DB7E /* Sources */,
 				08F4EE641C195E5C0029DB7E /* Frameworks */,
 				08F4EE651C195E5C0029DB7E /* Resources */,
+				6AF77CDC25E10946130AF8D6 /* Embed Pods Frameworks */,
+				18DE2E02E42F1372DFCF49CC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -144,14 +414,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		18DE2E02E42F1372DFCF49CC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AF77CDC25E10946130AF8D6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A8635A909FAF44897781718 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		08F4EE631C195E5C0029DB7E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08E91D281C1A5B15003C7976 /* NJGroupItem.m in Sources */,
+				08F4EEAF1C196E210029DB7E /* NJOneViewController.m in Sources */,
 				08F4EE721C195E5C0029DB7E /* ViewController.m in Sources */,
 				08F4EE6F1C195E5C0029DB7E /* AppDelegate.m in Sources */,
+				08F4EEB51C196E730029DB7E /* NJThreeViewController.m in Sources */,
+				08F4EEB81C196EB40029DB7E /* NJFourViewController.m in Sources */,
+				08F4EEB21C196E420029DB7E /* NJTwoViewController.m in Sources */,
 				08F4EE6C1C195E5C0029DB7E /* main.m in Sources */,
+				08F4EEAC1C196DA60029DB7E /* NJTabBarController.m in Sources */,
+				08E91D2B1C1A5B72003C7976 /* NJSettingItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +584,7 @@
 		};
 		08F4EE7F1C195E5C0029DB7E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB13C39B692BE8565D539BF4 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NativeJSDemo/Info.plist;
@@ -270,6 +596,7 @@
 		};
 		08F4EE801C195E5C0029DB7E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4DB71B1028893FB6113230F /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NativeJSDemo/Info.plist;
@@ -298,6 +625,7 @@
 				08F4EE801C195E5C0029DB7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

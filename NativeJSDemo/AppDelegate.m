@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "NJTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,17 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    // 1.创建窗口
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    
+    // 2.设置窗口的根控制器
+    NJTabBarController *tabBarVC = [[NJTabBarController alloc]init];
+    self.window.rootViewController = tabBarVC;
+    
+    // 3.显示窗口
+    [self.window makeKeyAndVisible];
+    
+    
     return YES;
 }
 
