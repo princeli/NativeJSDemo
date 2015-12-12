@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0852FE0E1C1A854E00C94582 /* NJMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 0852FE0D1C1A854E00C94582 /* NJMenu.m */; };
+		08DABFB31C1A9EA5009927AC /* NJCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 08DABFB11C1A9EA5009927AC /* NJCell.m */; };
+		08DABFB61C1AA135009927AC /* NJCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08DABFB51C1AA135009927AC /* NJCell.xib */; };
 		08E91D281C1A5B15003C7976 /* NJGroupItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E91D271C1A5B15003C7976 /* NJGroupItem.m */; };
 		08E91D2B1C1A5B72003C7976 /* NJSettingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E91D2A1C1A5B72003C7976 /* NJSettingItem.m */; };
 		08F4EE6C1C195E5C0029DB7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F4EE6B1C195E5C0029DB7E /* main.m */; };
@@ -24,6 +27,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0852FE0C1C1A854E00C94582 /* NJMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJMenu.h; sourceTree = "<group>"; };
+		0852FE0D1C1A854E00C94582 /* NJMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJMenu.m; sourceTree = "<group>"; };
+		08DABFB01C1A9EA5009927AC /* NJCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJCell.h; sourceTree = "<group>"; };
+		08DABFB11C1A9EA5009927AC /* NJCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJCell.m; sourceTree = "<group>"; };
+		08DABFB51C1AA135009927AC /* NJCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NJCell.xib; sourceTree = "<group>"; };
 		08E91D261C1A5B15003C7976 /* NJGroupItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJGroupItem.h; sourceTree = "<group>"; };
 		08E91D271C1A5B15003C7976 /* NJGroupItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJGroupItem.m; sourceTree = "<group>"; };
 		08E91D291C1A5B72003C7976 /* NJSettingItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJSettingItem.h; sourceTree = "<group>"; };
@@ -144,6 +152,8 @@
 		08F4EE931C196CD70029DB7E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0852FE0C1C1A854E00C94582 /* NJMenu.h */,
+				0852FE0D1C1A854E00C94582 /* NJMenu.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -151,6 +161,9 @@
 		08F4EE941C196CD70029DB7E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				08DABFB51C1AA135009927AC /* NJCell.xib */,
+				08DABFB01C1A9EA5009927AC /* NJCell.h */,
+				08DABFB11C1A9EA5009927AC /* NJCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -407,6 +420,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				08F4EE7A1C195E5C0029DB7E /* LaunchScreen.storyboard in Resources */,
+				08DABFB61C1AA135009927AC /* NJCell.xib in Resources */,
 				08F4EE771C195E5C0029DB7E /* Assets.xcassets in Resources */,
 				08F4EE751C195E5C0029DB7E /* Main.storyboard in Resources */,
 			);
@@ -469,6 +483,7 @@
 			files = (
 				08E91D281C1A5B15003C7976 /* NJGroupItem.m in Sources */,
 				08F4EEAF1C196E210029DB7E /* NJOneViewController.m in Sources */,
+				0852FE0E1C1A854E00C94582 /* NJMenu.m in Sources */,
 				08F4EE721C195E5C0029DB7E /* ViewController.m in Sources */,
 				08F4EE6F1C195E5C0029DB7E /* AppDelegate.m in Sources */,
 				08F4EEB51C196E730029DB7E /* NJThreeViewController.m in Sources */,
@@ -477,6 +492,7 @@
 				08F4EE6C1C195E5C0029DB7E /* main.m in Sources */,
 				08F4EEAC1C196DA60029DB7E /* NJTabBarController.m in Sources */,
 				08E91D2B1C1A5B72003C7976 /* NJSettingItem.m in Sources */,
+				08DABFB31C1A9EA5009927AC /* NJCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

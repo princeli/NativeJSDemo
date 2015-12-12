@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NJTwoViewController : UITableViewController
+@interface NJTwoViewController : UIViewController<UIWebViewDelegate>
 
 @end
